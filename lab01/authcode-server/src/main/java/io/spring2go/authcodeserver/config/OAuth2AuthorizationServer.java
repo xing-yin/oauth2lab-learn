@@ -5,8 +5,11 @@ import org.springframework.security.oauth2.config.annotation.configurers.ClientD
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 
-//授权服务器配置
+/**
+ * 最简授权服务器配置
+ */
 @Configuration
+// 告诉 spring 启用授权服务器
 @EnableAuthorizationServer
 public class OAuth2AuthorizationServer extends
         AuthorizationServerConfigurerAdapter {
@@ -14,13 +17,17 @@ public class OAuth2AuthorizationServer extends
     @Override
     public void configure(ClientDetailsServiceConfigurer clients)
             throws Exception {
+        // 配置授权服务器
         clients.inMemory()
-            .withClient("clientapp")
-            .secret("112233")
-            .redirectUris("http://localhost:9001/callback")
-            // 授权码模式
-            .authorizedGrantTypes("authorization_code")
-            .scopes("read_userinfo", "read_contacts");
+                // 客户凭证
+                .withClient("clientapp")
+                .secret("112233")
+                // 重定向地址
+                .redirectUris("http://localhost:9001/callback")
+                // 授权码模式
+                .authorizedGrantTypes("authorization_code")
+                // 指定授权
+                .scopes("read_userinfo", "read_contacts");
     }
 
 }
