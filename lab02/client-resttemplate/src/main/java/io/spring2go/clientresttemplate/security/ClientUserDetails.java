@@ -1,14 +1,14 @@
 package io.spring2go.clientresttemplate.security;
 
-import java.util.Collection;
-import java.util.HashSet;
-
+import io.spring2go.clientresttemplate.user.ClientUser;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import io.spring2go.clientresttemplate.user.ClientUser;
+import java.util.Collection;
+import java.util.HashSet;
 
 public class ClientUserDetails implements UserDetails {
+
     private static final long serialVersionUID = 1L;
 
     private ClientUser clientUser;

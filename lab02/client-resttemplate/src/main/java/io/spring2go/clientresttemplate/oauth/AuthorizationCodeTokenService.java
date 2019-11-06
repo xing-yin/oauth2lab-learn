@@ -1,13 +1,5 @@
 package io.spring2go.clientresttemplate.oauth;
 
-import java.io.UnsupportedEncodingException;
-import java.net.URI;
-import java.net.URLEncoder;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.RequestEntity;
@@ -16,18 +8,28 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URI;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 @Service
 public class AuthorizationCodeTokenService {
     @Autowired
     private AuthorizationCodeConfiguration configuration;
 
     public String getAuthorizationEndpoint() {
+        // 拼装端点
         String endpoint = "http://localhost:8080/oauth/authorize";
 
         Map<String, String> authParameters = new HashMap<>();
         authParameters.put("client_id", "clientapp");
         authParameters.put("response_type", "code");
         authParameters.put("redirect_uri",
+                // 监听的链接
                 getEncodedUrl("http://localhost:9001/callback"));
         authParameters.put("scope", getEncodedUrl("read_userinfo"));
 

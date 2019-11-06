@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class UserController {
 
+    /**
+     * 资源
+     * @return
+     */
     @RequestMapping("/api/userinfo")
     public ResponseEntity<UserInfo> getUerInfo() {
         String username = (String) SecurityContextHolder.getContext()

@@ -1,10 +1,8 @@
 package io.spring2go.clientresttemplate.user;
 
-import java.net.URI;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.Date;
-
+import io.spring2go.clientresttemplate.oauth.AuthorizationCodeTokenService;
+import io.spring2go.clientresttemplate.oauth.OAuth2Token;
+import io.spring2go.clientresttemplate.security.ClientUserDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.RequestEntity;
@@ -18,12 +16,14 @@ import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.ModelAndView;
 
-import io.spring2go.clientresttemplate.oauth.AuthorizationCodeTokenService;
-import io.spring2go.clientresttemplate.oauth.OAuth2Token;
-import io.spring2go.clientresttemplate.security.ClientUserDetails;
+import java.net.URI;
+import java.util.Arrays;
+import java.util.Calendar;
+import java.util.Date;
 
 @Controller
 public class MainPage {
+
     @Autowired
     private AuthorizationCodeTokenService tokenService;
 
@@ -33,24 +33,6 @@ public class MainPage {
     @GetMapping("/")
     public String home() {
         return "index";
-    }
-
-    @GetMapping("/callback")
-    public ModelAndView callback(String code, String state) {
-        ClientUserDetails userDetails = (ClientUserDetails) SecurityContextHolder
-                .getContext().getAuthentication().getPrincipal();
-        ClientUser clientUser = userDetails.getClientUser();
-
-        OAuth2Token token = tokenService.getToken(code);
-        clientUser.setAccessToken(token.getAccessToken());
-
-        Calendar tokenValidity = Calendar.getInstance();
-        tokenValidity.setTime(new Date(Long.parseLong(token.getExpiresIn())));
-        clientUser.setAccessTokenValidity(tokenValidity);
-
-        users.save(clientUser);
-
-        return new ModelAndView("redirect:/mainpage");
     }
 
     @GetMapping("/mainpage")
@@ -75,6 +57,26 @@ public class MainPage {
 
         return mv;
     }
+
+    @GetMapping("/callback")
+    public ModelAndView callback(String code, String state) {
+        ClientUserDetails userDetails = (ClientUserDetails) SecurityContextHolder
+                .getContext().getAuthentication().getPrincipal();
+        ClientUser clientUser = userDetails.getClientUser();
+
+        OAuth2Token token = tokenService.getToken(code);
+        clientUser.setAccessToken(token.getAccessToken());
+
+        Calendar tokenValidity = Calendar.getInstance();
+        tokenValidity.setTime(new Date(Long.parseLong(token.getExpiresIn())));
+        clientUser.setAccessTokenValidity(tokenValidity);
+
+        // 可以替换为 redis 等缓存保存
+        users.save(clientUser);
+
+        return new ModelAndView("redirect:/mainpage");
+    }
+
 
     private void tryToGetUserInfo(ModelAndView mv, String token) {
         RestTemplate restTemplate = new RestTemplate();

@@ -14,10 +14,11 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 public class OAuth2AuthorizationServer extends
         AuthorizationServerConfigurerAdapter {
 
-	// 用户认证
+    // 用户认证
     @Autowired
     private AuthenticationManager authenticationManager;
 
+    // 需要配置端点
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints)
             throws Exception {
@@ -28,11 +29,11 @@ public class OAuth2AuthorizationServer extends
     public void configure(ClientDetailsServiceConfigurer clients)
             throws Exception {
         clients.inMemory()
-            .withClient("clientapp")
-            .secret("112233")
-            // 密码模式
-            .authorizedGrantTypes("password")
-            .scopes("read_userinfo", "read_contacts");
+                .withClient("clientapp")
+                .secret("112233")
+                // 密码模式
+                .authorizedGrantTypes("password")
+                .scopes("read_userinfo", "read_contacts");
     }
 
 }
