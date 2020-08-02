@@ -19,7 +19,7 @@ public class OAuth2AuthorizationServer extends
             throws Exception {
         // 配置授权服务器
         clients.inMemory()
-                // 客户凭证
+                // 客户凭证:withClient 一般注册进来
                 .withClient("clientapp")
                 .secret("112233")
                 // 重定向地址

@@ -18,7 +18,7 @@ public class OAuth2AuthorizationServer extends
     @Autowired
     private AuthenticationManager authenticationManager;
 
-    // 需要配置端点
+    // todo 需要配置端点: 因为用户名密码模式需要传递用户名密码给 AuthenticationManager 进行认证
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints)
             throws Exception {

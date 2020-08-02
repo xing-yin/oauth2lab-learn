@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e77d9d60-c250-4e52-91f9-2b6c7893c7dd" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="e77d9d60-c250-4e52-91f9-2b6c7893c7dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/authcode-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/authcode-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/authcode-server/src/main/java/io/spring2go/authcodeserver/config/OAuth2AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/authcode-server/src/main/java/io/spring2go/authcodeserver/config/OAuth2AuthorizationServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/authcode-server/src/main/java/io/spring2go/authcodeserver/config/OAuth2ResourceServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/authcode-server/src/main/java/io/spring2go/authcodeserver/config/OAuth2ResourceServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/client-server/src/main/java/io/spring2go/clientserver/config/OAuth2AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/client-server/src/main/java/io/spring2go/clientserver/config/OAuth2AuthorizationServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/password-server/src/main/java/io/spring2go/passwordserver/config/OAuth2AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/password-server/src/main/java/io/spring2go/passwordserver/config/OAuth2AuthorizationServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab02/client-resttemplate/src/main/java/io/spring2go/clientresttemplate/ClientRestTemplateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab02/client-resttemplate/src/main/java/io/spring2go/clientresttemplate/ClientRestTemplateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab02/client-resttemplate/src/main/java/io/spring2go/clientresttemplate/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab02/client-resttemplate/src/main/java/io/spring2go/clientresttemplate/security/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab02/client-resttemplate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lab02/client-resttemplate/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab02/client-resttemplate/src/main/resources/db/oauth_client.sql" beforeDir="false" afterPath="$PROJECT_DIR$/lab02/client-resttemplate/src/main/resources/db/oauth_client.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,61 +39,16 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1377941098">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lab01/authcode-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab01/client-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="x" value="1280" />
+    <option name="y" value="-41" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
+  <component name="ProjectId" id="1fXOhstHtbvceGsPLAIX3bncv5z" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -81,50 +64,21 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="oauth2lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oauth2lab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oauth2lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oauth2lab" type="462c0819:PsiDirectoryNode" />
-              <item name="lab01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oauth2lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oauth2lab" type="462c0819:PsiDirectoryNode" />
-              <item name="lab01" type="462c0819:PsiDirectoryNode" />
-              <item name="authcode-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oauth2lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oauth2lab" type="462c0819:PsiDirectoryNode" />
-              <item name="lab01" type="462c0819:PsiDirectoryNode" />
-              <item name="client-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oauth2lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oauth2lab" type="462c0819:PsiDirectoryNode" />
-              <item name="ppt" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572915975833" />
@@ -136,16 +90,96 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager" selected="Spring Boot.ClientRestTemplateApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthCodeServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="authcode-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.spring2go.authcodeserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.spring2go.authcodeserver.AuthCodeServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientRestTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client-resttemplate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.spring2go.clientresttemplate.ClientRestTemplateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.spring2go.clientserver.ClientServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImplicitServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="implicit-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.spring2go.implicitserver.ImplicitServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="password-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.spring2go.passwordserver.PasswordServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Spring Boot.AuthCodeServerApplication" />
       </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -159,65 +193,72 @@
       <option name="presentableId" value="Default" />
       <updated>1572911840704</updated>
       <workItem from="1572911843529" duration="204000" />
+      <workItem from="1573199662721" duration="604000" />
+      <workItem from="1596361094870" duration="4342000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Captures" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.3299363" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="RestServices" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" weight="0.3297568" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lab01/client-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab01/authcode-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="404" key="GridCell.Tab.0.bottom" timestamp="1596365242076">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="404" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596365242076" />
+    <state width="1398" height="404" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1596363585831" />
+    <state width="1398" height="404" key="GridCell.Tab.0.center" timestamp="1596365242075">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="404" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596365242075" />
+    <state width="1398" height="404" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1596363585829" />
+    <state width="1398" height="404" key="GridCell.Tab.0.left" timestamp="1596365242074">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="404" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596365242074" />
+    <state width="1398" height="404" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1596363585828" />
+    <state width="1398" height="404" key="GridCell.Tab.0.right" timestamp="1596365242076">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="404" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596365242076" />
+    <state width="1398" height="404" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1596363585829" />
+    <state width="1398" height="404" key="GridCell.Tab.1.bottom" timestamp="1596365242078">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="404" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596365242078" />
+    <state width="1398" height="404" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1596363585833" />
+    <state width="1398" height="404" key="GridCell.Tab.1.center" timestamp="1596365242077">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="404" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1596365242077" />
+    <state width="1398" height="404" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1596363585832" />
+    <state width="1398" height="404" key="GridCell.Tab.1.left" timestamp="1596365242077">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="404" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1596365242077" />
+    <state width="1398" height="404" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1596363585831" />
+    <state width="1398" height="404" key="GridCell.Tab.1.right" timestamp="1596365242077">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="404" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1596365242077" />
+    <state width="1398" height="404" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1596363585832" />
   </component>
   <component name="masterDetails">
     <states>

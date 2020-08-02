@@ -17,6 +17,7 @@ public class OAuth2ResourceServer extends ResourceServerConfigurerAdapter {
             .authenticated()
         .and()
             .requestMatchers()
+                // 需要进行 ouath2 认证的端点：/api/**
             .antMatchers("/api/**");
     }
 

@@ -16,7 +16,7 @@ public class ClientRestTemplateApplication implements ServletContextInitializer 
 
     @Override
     public void onStartup(ServletContext context) throws ServletException {
-        // 重命名 session 名字
+        // 重命名 session 名字，这样不容易与其他 session 名重复
         context.getSessionCookieConfig().setName("client-session");
     }
 
